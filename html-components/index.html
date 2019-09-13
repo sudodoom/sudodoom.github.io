@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>BUY FREE RAM</title>
+    <meta charset="utf-8" />
+</head>
+<body style="background-color:darkgrey;background-image:url(ram.png)">
+    <h1 style="text-align:center;font-family:Arial;color:white">RAM</h1>
+    <form method="get">
+
+        <!--inputs below are for shipping information (ie name, address, etc)-->
+        <label style="font-family:Arial;color:white" for="name">Name:</label>
+        <input style="font-family:Arial;color:white" type="text" name="name" placeholder="Please enter your name" size="40" maxlength="100" id="name" />
+
+        <br /> <label style="font-family:Arial;color:white" for="address">Address:</label>
+        <input style="font-family:Arial" type="text" name="address" placeholder="Please enter your address" size="40" maxlength="100" id="address" />
+
+        <br /><label style="font-family:Arial;color:white" for="postalcode">Postal code:</label>
+        <input style="font-family:Arial" type="text" name="postalcode" placeholder="Please enter your postal code" size="7" maxlength="7" id="postalcode" />
+
+        <br /><label style="font-family:Arial;color:white" for="city">City:</label>
+        <input style="font-family:Arial" type="text" name="city" placeholder="Please enter your city" size="40" maxlength="100" id="city" />
+
+        <br /><b style="font-family:Arial;color:white">Shipping type:</b>
+
+        <select>
+            <!--two options for shipping *see value*-->
+            <option style="font-family:Arial" value="oneday">One-Day shipping</option>
+            <option style="font-family:Arial" value="twoday">Two-Day shipping</option>
+        </select>
+
+        <br /><b style="font-family:Arial;color:white">Payment type:</b>
+
+        <!--inputs below are for payment options-->
+        <label><input style="font-family:Arial;color:white" type="radio" name="payment" value="paypal" />PayPal</label>
+        <label><input style="font-family:Arial;color:white" type="radio" name="payment" value="Debit" />Debit</label>
+        <label><input style="font-family:Arial;color:white" type="radio" name="payment" value="Credit" />Credit</label>
+
+        <!--Comment line for comment section-->
+        <br /><textarea rows="4" cols="40" placeholder="Comments" name="comments" id="comments"></textarea>
+
+        <br /><label><input style="font-family:Arial;color:white" type="checkbox" name="signup" checked />Sign me up for email updates</label>
+        <br /><label><input style="font-family:Arial;color:white" type="checkbox" name="savepay" checked />Save my payment information</label>
+
+        <!--sumbit button-->
+        <br /><button style="font-family:Arial" type="submit">Submit</button>
+    </form>
+</body>
+</html>
