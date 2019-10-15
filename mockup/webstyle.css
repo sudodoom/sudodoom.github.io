@@ -1,0 +1,262 @@
+﻿body {
+}
+
+.sidebar {
+    height:100%;
+    width:180px;
+    position:fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    background-color:rgb(28,28,28);
+    overflow-x:hidden;
+}
+h1{
+    position:absolute;
+    left: 250px;
+    font-family:Arial;
+}
+h3{
+    position:absolute;
+    left: 250px;
+    top:135px;
+    font-family:Arial
+}
+.boxA{
+    z-index:1;
+    position:absolute;
+    top:200px;
+    left:250px;
+    width:22%;
+    padding:10px;
+    height:450px;
+    background-color:rgb(48,48,48);
+}
+.boxA p{
+    position:absolute;
+    top:300px;
+    color:rgb(213,213,213);
+    font-family:Arial;
+    left:5px;
+           
+}
+.boxA h4{
+    position:absolute;
+    top:265px;
+    left:5px;    
+    color:rgb(213,213,213);
+    font-family:Arial;
+    text-decoration:none;
+    text-align:center;
+}
+
+.boxA img{
+    position:absolute;
+    width:95%;
+    height:240px;
+}
+
+
+
+.boxB{
+    z-index:1;
+    position:absolute;
+    top:200px;
+    left:600px;
+    width:22%;
+    padding:10px;
+    height:450px;
+    background-color:rgb(48,48,48);
+}
+.boxB p{
+    position:absolute;
+    top:300px;
+    color:rgb(213,213,213);
+    font-family:Arial;
+    left:5px;
+           
+}
+.boxB h4{
+    position:absolute;
+    top:265px;
+    left:5px;    
+    color:rgb(213,213,213);
+    font-family:Arial;
+    text-decoration:none;
+    text-align:center;
+}
+
+.boxB img{
+    position:absolute;
+    width:95%;
+    height:240px;
+}
+
+.boxC{
+    z-index:1;
+    position:absolute;
+    top:200px;
+    left:950px;
+    width:22%;
+    padding:10px;
+    height:450px;
+    background-color:rgb(48,48,48);
+}
+.boxC p{
+    position:absolute;
+    top:300px;
+    color:rgb(213,213,213);
+    font-family:Arial;
+    left:5px;
+           
+}
+.boxC h4{
+    position:absolute;
+    top:265px;
+    left:5px;    
+    color:rgb(213,213,213);
+    font-family:Arial;
+    text-decoration:none;
+    text-align:center;
+}
+
+.boxC img{
+    position:absolute;
+    width:95%;
+    height:240px;
+}
+   
+       
+.sidebar a {
+    color:rgb(213,213,213);
+    padding:16px;
+    text-decoration:none;
+    font-family:Arial;
+    display:block;
+}
+    .sidebar a:hover {
+        background-color: rgb(213,213,213);
+        color: rgb(28,28,28);
+        cursor: pointer;
+    }
+
+    .forumbar{
+        z-index:1;
+        padding:10px;
+        position:absolute;
+        background-color:rgb(48,48,48);
+        top:200px;
+        left:20%;
+        width:70%;
+        height:100%;
+    }
+    .forumbar p{
+        
+        padding:16px;
+        position:absolute;
+        font-size:inherit;
+
+    }
+    .forumbar a{
+        text-decoration:none;
+        padding:10px;
+        font-family:Arial;
+        color:rgb(213,213,213);
+        display:block;
+        border-bottom: 1px solid rgb(213,213,213)
+    }
+    .forumbar a:hover{
+        background-color:rgb(213,213,213);
+        color:black;
+        cursor:pointer;
+    }
+    .forumbar h3{
+        position:absolute;
+        top:0px;
+        left:0px;
+        color:rgb(213,213,213);
+        font-family:Arial;
+        border-bottom: 1px solid rgb(213,213,213);
+        padding:16px;
+    }
+
+
+    .content{
+        position:absolute;
+        height:96.5%;
+        width:550px;
+        background-color:rgb(48,48,48);
+    }
+    .content h3{
+        position:absolute;
+        top:-30px;
+        left:0;
+        color:rgb(213,213,213);
+        font-family:Arial;
+        padding:16px;
+    }
+    .content p{
+        position:absolute;
+        top:15px;
+        left:5px;
+        color:rgb(213,213,213);
+        font-family:Arial;
+        padding:16px;
+    }
+    .content a{
+        display:block;
+        background-color:rgb(28,28,28);
+        position:absolute;
+        text-align:center;
+        top:512px;
+        border-bottom:none;
+
+    }
+
+    .navbar2{
+        position:absolute;
+        left:850px;
+        top:200px;
+        width:250px;
+        height:570px;
+        background-color:rgb(28,28,28);
+
+    }
+    .divider{
+        position:absolute;
+        background-color:rgb(28,28,28);
+        top:35px;
+        width:100%;
+        height:8px;
+    }
+
+    h2{
+    position:absolute;
+    left: 250px;
+    top:135px;
+    font-family:Arial
+}
+    p{
+        font-family:Arial;
+        position:absolute;
+        left:250px;
+        top:175px;
+        font-size:18px;
+    }
+
+   a:hover{
+       cursor:pointer;
+   }
+.navbar2 a{
+    display:block;
+    padding:10px;
+    border-bottom: 1px solid rgb(213,213,213);
+    color:rgb(213,213,213);
+    font-family:Arial;
+}
+
+.navbar2 a:hover{
+    background-color:rgb(213,213,213);
+    border-bottom: rgb(48,48,48);
+    color:rgb(48,48,48);
+}
